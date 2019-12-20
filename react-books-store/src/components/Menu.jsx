@@ -3,17 +3,17 @@ import {Menu} from 'semantic-ui-react'
 
 const MenuComponent = () => (
     <Menu>
-    <Menu.Item name='browse' onClick={this.handleItemClick}>
-      Books Shop
+    <Menu.Item name='browse'>
+      <b>Books Shop</b> 
     </Menu.Item>
 
     <Menu.Menu position='right'>
-      <Menu.Item name='signup' onClick={this.handleItemClick}>
-       Total <b>0</b>
+      <Menu.Item name='signup' >
+       Total: &nbsp; <b>0</b>&nbsp;euro.
     </Menu.Item>
 
-      <Menu.Item name='help' onClick={this.handleItemClick}>
-       Сart <b>0</b>
+      <Menu.Item name='help' >
+       Сart &nbsp; <b>0</b>
     </Menu.Item>
     </Menu.Menu>
   </Menu>

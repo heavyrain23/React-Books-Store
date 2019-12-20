@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import { Card, Image, Icon } from 'semantic-ui-react'
 
 const BooksCard = ({ title, author, price, image }) => (

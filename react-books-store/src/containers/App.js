@@ -1,6 +1,8 @@
 import { connect } from 'react-redux';
-import { setBooks } from '../actions/books'
+import {bindActionsCreators} from 'redux';
+import * as booksActions from '../actions/books';
 import App from '../components/App'
+
 
 const mapStateToProps = ({books}) => ({
     books: books.items,
@@ -8,8 +10,9 @@ const mapStateToProps = ({books}) => ({
   });
   
   const mapDispatchToProps = dispatch => ({
-    setBooks: books => dispatch(setBooks(books))
-  });
+   ...bindActionsCreators(booksActions, dispatch),
+  
+});
   
   
-  export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);

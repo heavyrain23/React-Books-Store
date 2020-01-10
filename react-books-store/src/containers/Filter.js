@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import {bindActionsCreators} from 'redux';
+import {bindActionCreators} from 'redux';
 import * as filterActions from '../actions/filter'
 import Filter from '../components/Filter'
 
@@ -8,7 +8,7 @@ const mapStateToProps = ({books}) => ({
   });
   
   const mapDispatchToProps = dispatch => ({
-   ...bindActionsCreators(filterActions, dispatch)
+   ...bindActionCreators(filterActions, dispatch)
   });
   
   

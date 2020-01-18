@@ -2,8 +2,9 @@ import React, {Component } from 'react';
 import axios from 'axios'
 import MenuComponent from './Menu'
 import {Card, Container} from 'semantic-ui-react'
-import BooksCard from './BooksCard'
+import BookCard from '../components/BookCard'
 import Filter from '../containers/Filter'
+import Menu from '../containers/Menu'
 
 
 
@@ -23,7 +24,7 @@ class App extends Component {
         <Filter/>
 
         <Card.Group itemsPerRow={4}>
-          {!isReady ? 'Loading...' : books.map((book, i) => <BooksCard key={i} {...book} />)}
+          {!isReady ? 'Loading...' : books.map((book, i) => <BookCard key={i} {...book} />)}
         </Card.Group>
       </Container>
 

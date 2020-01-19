@@ -1,20 +1,41 @@
-import React from 'react'
-import {Menu} from 'semantic-ui-react'
+import React from "react";
+import { Menu, Popup, List, Button, Image } from "semantic-ui-react";
 
-const MenuComponent = ({totalPrice, count}) => (
-    <Menu>
-    <Menu.Item name='browse'>
-      <b>Books Shop</b> 
-    </Menu.Item>
+const CartComponent = ({ title, id, image, removeFromCart }) => (
+  <List selection divided verticalAlign="middle">
+    <List.Item>
+      <List.Content floated="right">
+        <Button onClick={removeFromCart.bind(this, id)} color="red">
+          Delete
+        </Button>
+      </List.Content>
+      <Image avatar src={image} />
+      <List.Content>{title}</List.Content>
+    </List.Item>
+  </List>
+);
 
-    <Menu.Menu position='right'>
-      <Menu.Item name='signup' >
-       Total: &nbsp; <b>{totalPrice}</b>&nbsp;euro.
-    </Menu.Item>
+const MenuComponent = ({ totalPrice, count, items }) => (
+  <Menu>
+    <Menu.Item name="browse">Books shop</Menu.Item>
 
-      <Menu.Item name='help' >
-       Сart &nbsp; <b>{count}</b>
-    </Menu.Item>
+    <Menu.Menu position="right">
+      <Menu.Item name="signup">
+        Total: &nbsp; <b>{totalPrice}</b>&nbsp;euro.
+      </Menu.Item>
+
+      <Popup
+        trigger={
+          <Menu.Item name="help">
+            Cart (<b>{count}</b>)
+          </Menu.Item>
+        }
+        content={items.map(book => (
+          <CartComponent {...book} />
+        ))}
+        on="click"
+        hideOnScroll
+      />
     </Menu.Menu>
   </Menu>
 );

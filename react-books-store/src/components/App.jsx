@@ -1,17 +1,15 @@
-import React, {Component } from 'react';
-import axios from 'axios'
-import MenuComponent from './Menu'
-import {Card, Container} from 'semantic-ui-react'
-import BookCard from '../components/BookCard'
-import Filter from '../containers/Filter'
-import Menu from '../containers/Menu'
+import React, { Component } from 'react';
+import { Card, Container } from 'semantic-ui-react';
+import axios from 'axios';
 
-
+import BookCard from '../containers/BookCard';
+import Filter from '../containers/Filter';
+import Menu from '../containers/Menu';
 
 class App extends Component {
   componentWillMount() {
     const { setBooks } = this.props;
-    axios.get('/books.json'). then(({ data }) => {
+    axios.get('/books.json').then(({ data }) => {
       setBooks(data);
     });
   }
@@ -20,14 +18,14 @@ class App extends Component {
     const { books, isReady } = this.props;
     return (
       <Container>
-        <MenuComponent />
-        <Filter/>
-
+        <Menu />
+        <Filter />
         <Card.Group itemsPerRow={4}>
-          {!isReady ? 'Loading...' : books.map((book, i) => <BookCard key={i} {...book} />)}
+          {!isReady
+            ? 'Loading...'
+            : books.map((book, i) => <BookCard key={i} {...book} />)}
         </Card.Group>
       </Container>
-
     );
   }
 }

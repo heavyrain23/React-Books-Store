@@ -1,0 +1,154 @@
+[
+    {
+      "id": 0,
+      "title": "Origin",
+      "author": "Dan Brown",
+      "image": "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/27624091-den-braun-proishozhdenie-27624091.jpg",
+      "price": 13,
+      "rating": 3
+    },
+    {
+      "id": 1,
+      "title": "1984",
+      "author": "George Orwell",
+      "image": "https://cv0.litres.ru/sbc/09233908_cover_185-elektronnaya-kniga--.jpg",
+      "price": 8,
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "title": "Girl in the fog",
+      "author": "Donato Carrisi",
+      "image": "https://cv2.litres.ru/sbc/31635724_cover_185-elektronnaya-kniga-donato-karrizi-devushka-v-tumane.jpg",
+      "price": 9,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "title": "The Empire Must Die",
+      "author": "Mikhail Zygar",
+      "image": "https://cv0.litres.ru/sbc/30804904_cover_185-elektronnaya-kniga-mihail-zygar-imperiya-dolzhna-umeret.jpg",
+      "price": 16,
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "title": "Gravity",
+      "author": "Tatyana Ustinova",
+      "image": "https://cv9.litres.ru/sbc/30087292_cover_185-elektronnaya-kniga-tatyana-ustinova-zemnoe-prityazhenie.jpg",
+      "price": 5,
+      "rating": 1
+    },
+    {
+      "id": 5,
+      "title": "Zuleikha opens her eyes",
+      "author": "Guzel Yakhina",
+      "image": "https://cv5.litres.ru/sbc/17411250_cover_185-elektronnaya-kniga-guzel-yahina-zuleyha-otkryvaet-glaza-2.jpg",
+      "price": 5,
+      "rating": 0
+    },
+    {
+      "id": 6,
+      "title": "Gut: the inside story of our body's most under-rated organ",
+      "author": "Julia Anders",
+      "image": "https://cv7.litres.ru/pub/c/elektronnaya-kniga/cover_120/12178377-dzhuliya-enders-ocharovatelnyy-kishechnik-kak-samyy-moguschestvennyy-organ-upravlyaet-nami-12178377.jpg",
+      "price": 9,
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "title": "iPhuck 10",
+      "author": "Victor Pelevin",
+      "image": "https://cv7.litres.ru/sbc/31221870_cover_185-elektronnaya-kniga-viktor-pelevin-iphuck-10-25564903.jpg",
+      "price": 7,
+      "rating": 0
+    },
+    {
+      "id": 8,
+      "title": "The 7 Habits of Highly Effective People ",
+      "author": "Stephen Covey",
+      "image": "https://cv8.litres.ru/pub/c/elektronnaya-kniga/cover_415/4239285--.jpg",
+      "price": 7,
+      "rating": 5
+    },
+    {
+      "id": 9,
+      "title": "Girl in ice",
+      "author": "Robert Bryndza",
+      "image": "https://cv3.litres.ru/pub/c/elektronnaya-kniga/cover_415/27351732-robert-bryndza-12646976-devushka-vo-ldu.jpg",
+      "price": 19,
+      "rating": 2
+    },
+    {
+      "id": 10,
+      "title": "The Miracle Morning",
+      "author": "Hal Elrod",
+      "image": "https://cv1.litres.ru/pub/c/elektronnaya-kniga/cover_415/19063017-hel-elrod-magiya-utra.jpg",
+      "price": 22,
+      "rating": 1
+    },
+    {
+      "id": 11,
+      "title": "Asian Europeanization. History of the Russian state. Tsar Peter ...",
+      "author": "Boris Akunin",
+      "image": "https://cv3.litres.ru/sbc/31629439_cover_185-elektronnaya-kniga-boris-akunin-aziatskaya-evropeizaciya-istoriya-rossiyskogo-gosudarstva-car-petr-alekseevich.jpg",
+      "price": 7,
+      "rating": 2
+    },
+    {
+      "id": 12,
+      "title": "The Witcher",
+      "author": "Andrzej Sapkowski",
+      "image": "https://cv6.litres.ru/pub/c/elektronnaya-kniga/cover_415/6375365-andzhey-sapkovskiy-vedmak.jpg",
+      "price": 16,
+      "rating": 3
+    },
+    {
+      "id": 13,
+      "title": "Atlas Shrugged",
+      "author": "Ayn Rand",
+      "image": "https://cv7.litres.ru/pub/c/elektronnaya-kniga/cover_415/4236675-ayn-rend-atlant-raspravil-plechi.jpg",
+      "price": 15,
+      "rating": 2
+    },
+    {
+      "id": 14,
+      "title": "Price issue. Volume 1",
+      "author": "Alexandra Marinina",
+      "image": "https://cv6.litres.ru/sbc/33285466_cover_185-elektronnaya-kniga-aleksandra-marinina-cena-voprosa-tom-1-22638660.jpg",
+      "price": 21,
+      "rating": 0
+    },
+    {
+      "id": 15,
+      "title": "Disappeared",
+      "author": "Gillian Flynn",
+      "image": "https://cv2.litres.ru/sbc/11029722_cover_185-elektronnaya-kniga-gillian-flinn-ischeznuvshaya.jpg",
+      "price": 17,
+      "rating": 4
+    },
+    {
+      "id": 17,
+      "title": "Metro 2035",
+      "author": "Dmitry Glukhovsky",
+      "image": "https://cv9.litres.ru/sbc/13698392_cover_185-elektronnaya-kniga-dmitriy-gluhovskiy-metro-2035.jpg",
+      "price": 22,
+      "rating": 4
+    },
+    {
+      "id": 18,
+      "title": "Snowman",
+      "author": "Yu Nesby",
+      "image": "https://cv6.litres.ru/pub/c/elektronnaya-kniga/cover_415/4578362-u-nesbe-snegovik-4578362.jpg",
+      "price": 18,
+      "rating": 5
+    },
+    {
+      "id": 19,
+      "title": "How to train memory. Do not think about memory - it is better to use it one hundred percent!",
+      "author": "Jonathan Hancock",
+      "image": "https://cv1.litres.ru/sbc/14195715_cover_185-elektronnaya-kniga-dzhonatan-henkok-kak-trenirovat-pamyat-ne-dumayte-o-pamyati-luchshe-ispolzuyte-ee-na-vse-sto.jpg",
+      "price": 6,
+      "rating": 5
+    }
+  ]

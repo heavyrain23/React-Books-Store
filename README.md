@@ -1,5 +1,5 @@
 
-##Demo version you can see here https://heavyrain23.github.io/React-Books-Store/
+## Demo version you can see here https://heavyrain23.github.io/React-Books-Store/
 
 Books shop page was created with React, Redux and libraries as lodash, semantic-ui-react,redux-loggera and Axios.
 File books.json contain all books objects.This projects files have a readable and clear structure therefore the 

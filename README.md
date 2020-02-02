@@ -5,7 +5,7 @@ Books shop page was created with React, Redux and libraries as lodash, semantic-
 File books.json contain all books objects.This projects files have a readable and clear structure therefore the 
 project is easy to rebuild and support. Project was performed  on Class components.
 
-In this project was realized a filter by books price and books name. Also in the top left side you can see a 
+In this project was realized a filter by books price and books name. Also in the top right side you can see a 
 cart where is shown a total price of every selected books. Additionally user can remove books away from the cart.
 
 
